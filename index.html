@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage 24 — сайт автосервиса | Портфолио</title>
+    <meta name="description"
+        content="Garage 24 — концепт сайта современного автосервиса в Пскове. Диагностика, обслуживание и ремонт автомобилей.">
+    <meta name="theme-color" content="#181817">
+    <meta property="og:title" content="Garage 24 — автосервис в Пскове">
+    <meta property="og:description" content="Концепт сайта автосервиса Garage 24 для портфолио веб-разработчика.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="#top" aria-label="Garage 24, в начало страницы">
+            <span class="logo-mark" aria-hidden="true">24</span>
+            <span class="logo-name">Garage <b>24</b><small>автосервис / Псков</small></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Открыть меню</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+            <a href="#services">Услуги</a>
+            <a href="#about">О сервисе</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="header-button" href="#booking">Записаться</a>
+    </header>
+
+    <main id="top">
+
+
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Garage 24</h1>
+                <p>Качественный автосервис в Пскове</p>
+                <a class="hero-button" href="#booking">Записаться на сервис</a>
+            </div>
+
+            <div class="hero-image">
+                <a href="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1600&q=85"
+                    target="_blank" rel="noreferrer" aria-label="Открыть фотографию мастерской">
+                    <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1600&q=85"
+                        alt="Автомобиль в современной мастерской">
+                </a>
+                <span class="image-label">01 / workshop view</span>
+            </div>
+        </section>
+
+
+
+        <section class="services section" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">Что мы делаем</p>
+                <h2>Услуги для вашего автомобиля</h2>
+                <p>От планового обслуживания до сложного ремонта. Объясняем работу и заранее согласовываем стоимость.
+                </p>
+            </div>
+
+            <div class="services-list">
+                <article class="service-card">
+                    <span class="service-number">01</span>
+                    <h3>Диагностика автомобиля</h3>
+                    <p>Комплексная проверка состояния автомобиля и поиск неисправностей.</p>
+                    <strong>от 1 500 ₽</strong>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">02</span>
+                    <h3>Замена масла</h3>
+                    <p>Замена моторного масла, фильтров и технических жидкостей.</p>
+                    <strong>от 1 000 ₽</strong>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">03</span>
+                    <h3>Ремонт ходовой части</h3>
+                    <p>Диагностика и ремонт подвески, тормозной системы и рулевого управления.</p>
+                    <strong>от 3 000 ₽</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about-content">
+                <p class="eyebrow">Garage 24 / Псков</p>
+                <h2>Сервис, которому можно доверить свой автомобиль</h2>
+                <p>Мы берёмся за автомобили разных марок и говорим с клиентом понятным языком. Перед началом работ
+                    проводим диагностику, согласовываем план и не добавляем скрытые услуги.</p>
+                <div class="about-facts">
+                    <div>
+                        <strong>10+</strong>
+                        <span>лет опыта</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>на связи</span>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>прозрачности</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section" id="gallery">
+            <div class="section-heading">
+                <p class="eyebrow">Рабочая атмосфера</p>
+                <h2>Там, где машина получает второй ресурс</h2>
+            </div>
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-item-large">
+                    <a href="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1600&q=85"
+                        target="_blank" rel="noreferrer" aria-label="Открыть фотографию автомобиля в сервисе">
+                        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1600&q=85"
+                            alt="Автомобиль в боксе автосервиса">
+                    </a>
+                    <figcaption>Диагностика и ремонт в оборудованной мастерской</figcaption>
+                </figure>
+                <div class="gallery-note">
+                    <span>01</span>
+                    <p>Проверяем автомобиль перед ремонтом, чтобы найти настоящую причину проблемы.</p>
+                </div>
+                <div class="gallery-note gallery-note-accent">
+                    <span>02</span>
+                    <p>Используем профессиональное оборудование и качественные запчасти.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking section" id="booking">
+            <div class="booking-intro">
+                <p class="eyebrow">Первый шаг</p>
+                <h2>Запишитесь на сервис</h2>
+                <p>Оставьте контакты, и мы свяжемся с вами, чтобы уточнить задачу и удобное время визита.</p>
+            </div>
+            <form class="booking-form" action="#booking" method="post">
+                <label for="name">Ваше имя</label>
+                <input id="name" name="name" type="text" placeholder="Например, Алексей" required>
+
+                <label for="phone">Номер телефона</label>
+                <input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+
+                <button class="hero-button" type="submit">Отправить заявку</button>
+                <small>Учебная форма: данные пока никуда не отправляются.</small>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="contacts section" id="contacts">
+            <div>
+                <p class="eyebrow">Как нас найти</p>
+                <h2>Garage 24 в Пскове</h2>
+            </div>
+            <div class="contact-list">
+                <p><span>Адрес</span>Псков, ул. Индустриальная, 24</p>
+                <p><span>Телефон</span><a href="tel:+78112602424">+7 (8112) 60-24-24</a></p>
+                <p><span>График</span>Пн–Сб, 09:00–20:00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="logo" href="#top" aria-label="Garage 24, в начало страницы">
+            <span class="logo-mark" aria-hidden="true">24</span>
+            <span class="logo-name">Garage <b>24</b><small>автосервис / Псков</small></span>
+        </a>
+        <p>Автосервис в Пскове</p>
+        <p>© 2026 Garage 24</p>
+    </footer>
+
+
+
+</body>
+
+</html>
